@@ -92,7 +92,7 @@
 			bindings = <
 			&kp ESC  &kp LG(LEFT) &kp LG(F) &kp LG(RIGHT) &kp LALT    &kp PG_UP  &kp HOME &kp UP    &kp END   &kp CAPS
 			&sk LSHIFT &sk LCTRL &sk LALT &sk LGUI &sk RGUI           &kp PG_DN  &kp LEFT &kp DOWN  &kp RIGHT &kp DEL
-			&kp LG(Z) &kp LG(X) &kp LG(C) &kp LGUI &kp LG(V)          &kp LA(BSPC) &kp BSPC &kp TAB &kp K_CMENU &kp PRINTSCREEN
+			&kp LG(Z) &kp LG(X) &kp LG(C) &kp LGUI &kp LG(V)          &kp LA(BSPC) &kp BSPC &kp TAB &kp SPACE &kp PRINTSCREEN
 							&trans &trans                               &kp ENTER &mo FNC
 			>;
 		};
