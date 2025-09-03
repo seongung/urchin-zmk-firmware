@@ -102,9 +102,9 @@
         ext_layer {
             label = "Extend";
             bindings = <
-&kp ESC     &kp LG(LEFT)  &kp LG(F)  &kp LG(RIGHT)  &kp LALT   &kp PG_UP     &kp HOME  &kp UP    &kp END    &kp CAPS
+&kp ESC     &kp LG(LEFT)  &kp LG(E)  &kp LG(RIGHT)  &kp LALT   &kp PG_UP     &kp HOME  &kp UP    &kp END    &kp CAPS
 &sk LSHIFT  &sk LCTRL     &sk LALT   &sk LGUI       &sk RGUI   &kp PG_DN     &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL
-&kp LG(Z)   &kp LG(X)     &kp LG(C)  &kp LGUI       &kp LG(V)  &kp LA(BSPC)  &kp BSPC  &kp TAB   &sk RALT   &kp PRINTSCREEN
+&kp LG(Z)   &kp LG(X)     &kp LG(C)  &kp LGUI       &kp LG(B)  &kp LA(BSPC)  &kp BSPC  &kp TAB   &sk RALT   &kp PRINTSCREEN
                                      &trans         &trans     &kp ENTER     &mo FNC
             >;
         };
@@ -116,7 +116,7 @@
             bindings = <
 &kp C_STOP  &kp C_PREV    &kp C_PP       &kp C_NEXT    &kp C_BRI_UP   &kp F12    &kp F7  &kp F8  &kp F9  &kp SLCK
 &sk LSHIFT  &sk LCTRL     &sk LALT       &sk LGUI      &kp C_BRI_DN   &kp F11    &kp F4  &kp F5  &kp F6  &none
-&kp C_MUTE  &kp C_VOL_DN  &kp LG(LS(C))  &kp C_VOL_UP  &kp LG(LS(V))  &kp F10    &kp F1  &kp F2  &kp F3  &none
+&kp C_MUTE  &kp C_VOL_DN  &kp LG(LS(C))  &kp C_VOL_UP  &kp LG(LS(B))  &kp F10    &kp F1  &kp F2  &kp F3  &none
                                          &trans        &trans         &kp ENTER  &trans
             >;
         };
