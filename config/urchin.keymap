@@ -198,9 +198,9 @@
         sym_layer {
             label = "Symbols";
             bindings = <
-&kp EXCL    &kp AT     &kp HASH  &kp DLLR  &kp PRCNT  &kp EQUAL  &kp GRAVE  &kp LS(O)  &kp O     &kp PLUS
-&sk LSHIFT  &sk LCTRL  &sk LALT  &sk LGUI  &kp CARET  &kp STAR   &kp LPAR   &kp LBRC   &kp LBKT  &kp MINUS
-&trans      &none      &kp BSLH  &kp PIPE  &kp AMPS   &kp TILDE  &kp RPAR   &kp RBRC   &kp RBKT  &kp UNDER
+&kp EXCL    &kp AT     &kp HASH  &kp DLLR  &kp PRCNT  &kp EQUAL  &kp GRAVE  &kp LS(APOS)  &kp APOS  &kp PLUS
+&sk LSHIFT  &sk LCTRL  &sk LALT  &sk LGUI  &kp CARET  &kp STAR   &kp LPAR   &kp LBRC      &kp LBKT  &kp MINUS
+&trans      &none      &kp BSLH  &kp PIPE  &kp AMPS   &kp TILDE  &kp RPAR   &kp RBRC      &kp RBKT  &kp UNDER
                                  &trans    &trans     &trans     &trans
             >;
         };
