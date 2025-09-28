@@ -108,6 +108,14 @@
 
             label = "TMUX_PANE_SPLIT_H";
         };
+
+        tmux_kill_win: tmux_kill_win {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp AMPERSAND>;
+
+            label = "TMUX_KILL_WIN";
+        };
     };
 
     combos {
@@ -170,9 +178,9 @@
         fnc_layer {
             label = "Function";
             bindings = <
-&kp C_STOP  &kp C_PREV    &kp C_PP       &kp C_NEXT    &kp C_BRI_UP   &tmux_sess_prev  &tmux_win_prev  &kp LC(N)       &tmux_win_next  &kp F12
-&sk LSHIFT  &sk LCTRL     &sk LALT       &sk LGUI      &kp C_BRI_DN   &tmux_sess_next  &kp LC(M)       &kp LC(Y)       &kp LC(U)       &kp LEFT_ALT
-&kp C_MUTE  &kp C_VOL_DN  &kp LG(LS(C))  &kp C_VOL_UP  &kp LG(LS(B))  &tmux_new_win    &tmux_win_prev  &tmux_win_next  &tmux_win3      &tmux_win4
+&kp C_STOP  &kp C_PREV    &kp C_PP       &kp C_NEXT    &kp C_BRI_UP   &tmux_sess_prev  &tmux_win_prev  &kp LC(N)  &tmux_win_next  &tmux_sess_next
+&sk LSHIFT  &sk LCTRL     &sk LALT       &sk LGUI      &kp C_BRI_DN   &tmux_new_win    &kp LC(M)       &kp LC(Y)  &kp LC(U)       &tmux_pane_split_v
+&kp C_MUTE  &kp C_VOL_DN  &kp LG(LS(C))  &kp C_VOL_UP  &kp LG(LS(B))  &tmux_kill_win   &kp F13         &kp F14    &kp F15         &tmux_pane_split_h
                                          &trans        &trans         &kp ENTER        &trans
             >;
         };
@@ -184,7 +192,7 @@
             bindings = <
 &kp EXCL    &kp AT     &kp HASH  &kp DLLR  &kp PRCNT  &kp EQUAL  &kp GRAVE  &kp LS(APOS)  &kp APOS  &kp PLUS
 &sk LSHIFT  &sk LCTRL  &sk LALT  &sk LGUI  &kp CARET  &kp STAR   &kp LPAR   &kp LBRC      &kp LBKT  &kp MINUS
-&trans      &none      &kp BSLH  &kp PIPE  &kp AMPS   &kp TILDE  &kp RPAR   &kp RBRC      &kp RBKT  &kp UNDER
+&none       &none      &kp BSLH  &kp PIPE  &kp AMPS   &kp TILDE  &kp RPAR   &kp RBRC      &kp RBKT  &kp UNDER
                                  &trans    &trans     &trans     &trans
             >;
         };
