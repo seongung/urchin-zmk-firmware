@@ -56,7 +56,7 @@
         tmux_win_prev: tmux_win_prev {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp LC(M)>;
+            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp P>;
 
             label = "TMUX_WIN_PREV";
         };
@@ -64,7 +64,7 @@
         tmux_win_next: tmux_win_next {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp LC(U)>;
+            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp N>;
 
             label = "TMUX_WIN_NEXT";
         };
