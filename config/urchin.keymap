@@ -180,9 +180,9 @@
         fnc_layer {
             label = "Function";
             bindings = <
-&kp C_STOP  &kp C_PREV    &kp C_PP       &kp C_NEXT    &kp C_BRI_UP   &tmux_sess_prev  &tmux_win_prev  &kp LC(J)        &tmux_win_next  &tmux_sess_next
-&sk LSHIFT  &sk LCTRL     &sk LALT       &sk LGUI      &kp C_BRI_DN   &tmux_new_win    &kp LC(H)       &kp LC(K)        &kp LC(L)       &tmux_pane_split_v
-&kp C_MUTE  &kp C_VOL_DN  &kp LG(LS(C))  &kp C_VOL_UP  &kp LG(LS(V))  &tmux_kill_win   &kp LA(H)       &tmux_copy_mode  &kp LA(L)       &tmux_pane_split_h
+&kp C_STOP  &kp C_PREV    &kp C_PP       &kp C_NEXT    &kp C_BRI_UP   &tmux_sess_prev  &tmux_win_prev  &kp LC(Y)        &tmux_win_next  &tmux_sess_next
+&sk LSHIFT  &sk LCTRL     &sk LALT       &sk LGUI      &kp C_BRI_DN   &tmux_new_win    &kp LC(M)       &kp LC(N)        &kp LC(U)       &tmux_pane_split_v
+&kp C_MUTE  &kp C_VOL_DN  &kp LG(LS(C))  &kp C_VOL_UP  &kp LG(LS(B))  &tmux_kill_win   &kp LA(M)       &tmux_copy_mode  &kp LA(U)       &tmux_pane_split_h
                                          &trans        &trans         &kp ENTER        &trans
             >;
         };
