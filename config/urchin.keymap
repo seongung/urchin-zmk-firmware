@@ -180,9 +180,9 @@
         fnc_layer {
             label = "Function";
             bindings = <
-&kp C_STOP  &kp C_PREV    &kp C_PP       &kp C_NEXT    &kp C_BRI_UP   &tmux_sess_prev  &tmux_win_prev  &kp LC(J)  &tmux_win_next  &tmux_sess_next
-&sk LSHIFT  &sk LCTRL     &sk LALT       &sk LGUI      &kp C_BRI_DN   &tmux_new_win    &kp LC(H)       &kp LC(K)  &kp LC(L)       &tmux_pane_split_v
-&kp C_MUTE  &kp C_VOL_DN  &kp LG(LS(C))  &kp C_VOL_UP  &kp LG(LS(V))  &tmux_kill_win   &kp LA(H)       &kp F14    &kp LA(L)       &tmux_pane_split_h
+&kp C_STOP  &kp C_PREV    &kp C_PP       &kp C_NEXT    &kp C_BRI_UP   &tmux_sess_prev  &tmux_win_prev  &kp LC(J)        &tmux_win_next  &tmux_sess_next
+&sk LSHIFT  &sk LCTRL     &sk LALT       &sk LGUI      &kp C_BRI_DN   &tmux_new_win    &kp LC(H)       &kp LC(K)        &kp LC(L)       &tmux_pane_split_v
+&kp C_MUTE  &kp C_VOL_DN  &kp LG(LS(C))  &kp C_VOL_UP  &kp LG(LS(V))  &tmux_kill_win   &kp LA(H)       &tmux_copy_mode  &kp LA(L)       &tmux_pane_split_h
                                          &trans        &trans         &kp ENTER        &trans
             >;
         };
@@ -192,9 +192,9 @@
         sym_layer {
             label = "Symbols";
             bindings = <
-&kp EXCL    &kp AT     &kp HASH  &kp DLLR  &kp PRCNT  &kp EQUAL  &kp GRAVE  &kp LS(APOS)  &kp APOS  &kp PLUS
-&sk LSHIFT  &sk LCTRL  &sk LALT  &sk LGUI  &kp CARET  &kp STAR   &kp LPAR   &kp LBRC      &kp LBKT  &kp MINUS
-&none       &none      &kp BSLH  &kp PIPE  &kp AMPS   &kp TILDE  &kp RPAR   &kp RBRC      &kp RBKT  &kp UNDER
+&kp EXCL    &kp AT     &kp HASH  &kp DLLR  &kp PRCNT  &kp EQUAL  &kp GRAVE  &kp COLON  &kp SEMICOLON  &kp PLUS
+&sk LSHIFT  &sk LCTRL  &sk LALT  &sk LGUI  &kp CARET  &kp STAR   &kp LPAR   &kp LBRC   &kp LBKT       &kp MINUS
+&none       &none      &kp BSLH  &kp PIPE  &kp AMPS   &kp TILDE  &kp RPAR   &kp RBRC   &kp RBKT       &kp UNDER
                                  &trans    &trans     &trans     &trans
             >;
         };
