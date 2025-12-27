@@ -137,12 +137,6 @@
             bindings = <&mo FNC>;
         };
 
-        combo_number {
-            bindings = <&mo 4>;
-            key-positions = <33 31>;
-            timeout-ms = <200>;
-        };
-
         // Shift and Symbols keys - Numbers layer
     };
 
