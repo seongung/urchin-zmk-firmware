@@ -116,6 +116,14 @@
 
             label = "TMUX_KILL_WIN";
         };
+
+        tmux_copy_mode: tmux_copy_mode {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp LBKT>;
+
+            label = "TMUX_COPY_MODE";
+        };
     };
 
     combos {
