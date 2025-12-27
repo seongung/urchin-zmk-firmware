@@ -218,7 +218,7 @@
 
         ext_sym_to_fnc {
             if-layers = <1 2>;
-            then-layer = <4>;
+            then-layer = <3>;
         };
     };
 };
