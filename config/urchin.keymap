@@ -143,9 +143,10 @@
         // both outer thumb keys - Function layer
 
         combo_function {
-            timeout-ms = <200>;
+            timeout-ms = <120>;
             key-positions = <30 33>;
             bindings = <&mo FNC>;
+            slow-release;
         };
 
         // Shift and Symbols keys - Numbers layer
@@ -195,9 +196,9 @@
         sym_layer {
             label = "Symbols";
             bindings = <
-&kp EXCL    &kp AT     &kp HASH  &kp DLLR  &kp PRCNT  &kp EQUAL  &kp GRAVE  &kp LS(APOS)  &kp APOS  &kp PLUS
-&sk LSHIFT  &sk LCTRL  &sk LALT  &sk LGUI  &kp CARET  &kp STAR   &kp LPAR   &kp LBRC      &kp LBKT  &kp MINUS
-&none       &none      &kp BSLH  &kp PIPE  &kp AMPS   &kp TILDE  &kp RPAR   &kp RBRC      &kp RBKT  &kp UNDER
+&kp EXCL    &kp AT     &kp HASH  &kp DLLR  &kp PRCNT  &kp EQUAL  &kp GRAVE  &kp RA(LS(P))  &kp RA(P)  &kp PLUS
+&sk LSHIFT  &sk LCTRL  &sk LALT  &sk LGUI  &kp CARET  &kp STAR   &kp LPAR   &kp LBRC       &kp LBKT   &kp MINUS
+&none       &none      &kp BSLH  &kp PIPE  &kp AMPS   &kp TILDE  &kp RPAR   &kp RBRC       &kp RBKT   &kp UNDER
                                  &trans    &trans     &trans     &trans
             >;
         };
@@ -224,6 +225,15 @@
 &none        &none  &none  &none       &bt BT_SEL 2  &bt BT_SEL 5  &none   &none  &none  &studio_unlock
                            &trans      &trans        &trans        &trans
             >;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        a {
+            if-layers = <1 3>;
+            then-layer = <2>;
         };
     };
 };
