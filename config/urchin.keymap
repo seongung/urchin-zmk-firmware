@@ -56,7 +56,7 @@
         tmux_win_prev: tmux_win_prev {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp R>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp P>;
 
             label = "TMUX_WIN_PREV";
         };
@@ -64,7 +64,7 @@
         tmux_win_next: tmux_win_next {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp J>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp N>;
 
             label = "TMUX_WIN_NEXT";
         };
@@ -72,7 +72,7 @@
         tmux_new_win: tmux_new_win {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp C>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp C>;
 
             label = "TMUX_NEW_WIN";
         };
@@ -80,7 +80,7 @@
         tmux_sess_prev: tmux_sess_prev {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp LPAR>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp LPAR>;
 
             label = "TMUX_SESS_PREV";
         };
@@ -88,7 +88,7 @@
         tmux_sess_next: tmux_sess_next {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp RPAR>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp RPAR>;
 
             label = "TMUX_SESS_NEXT";
         };
@@ -96,7 +96,7 @@
         tmux_pane_split_v: tmux_pane_split_v {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp PERCENT>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp PERCENT>;
 
             label = "TMUX_PANE_SPLIT_V";
         };
@@ -104,7 +104,7 @@
         tmux_pane_split_h: tmux_pane_split_h {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp LS(P)>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp LS(P)>;
 
             label = "TMUX_PANE_SPLIT_H";
         };
@@ -112,7 +112,7 @@
         tmux_kill_win: tmux_kill_win {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp AMPERSAND>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp AMPERSAND>;
 
             label = "TMUX_KILL_WIN";
         };
