@@ -141,7 +141,7 @@
         combo_settings {
             timeout-ms = <200>;
             key-positions = <30 31>;
-            bindings = <&mo 6>;
+            bindings = <&mo 5>;
         };
 
         // both outer thumb keys - Function layer
@@ -159,16 +159,7 @@
 &kp Q  &kp W  &kp E  &kp R  &kp T            &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A  &kp S  &kp D  &kp F  &kp G            &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
 &kp Z  &kp X  &kp C  &kp V  &kp B            &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH
-                     &mo 2  &qt LSHIFT LGUI  &lt 5 SPACE  &mo 3
-            >;
-        };
-
-        colemak_dh_layer {
-            bindings = <
-&kp Q  &kp W  &kp F  &kp P  &kp B            &kp J        &kp L  &kp U      &kp Y    &kp SQT
-&kp A  &kp R  &kp S  &kp T  &kp G            &kp M        &kp N  &kp E      &kp I    &kp O
-&kp Z  &kp X  &kp C  &kp D  &kp V            &kp K        &kp H  &kp COMMA  &kp DOT  &kp FSLH
-                     &mo 2  &qt LSHIFT LGUI  &lt 5 SPACE  &mo 3
+                     &mo 1  &qt LSHIFT LGUI  &lt 4 SPACE  &mo 2
             >;
         };
 
@@ -215,7 +206,7 @@
         settings_layer {
             label = "Settings";
             bindings = <
-&bootloader  &none  &none  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 3  &tog 1  &none  &none  &bootloader
+&bootloader  &none  &none  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 3  &none   &none  &none  &bootloader
 &none        &none  &none  &none       &bt BT_SEL 1  &bt BT_SEL 4  &none   &none  &none  &none
 &none        &none  &none  &none       &bt BT_SEL 2  &bt BT_SEL 5  &none   &none  &none  &studio_unlock
                            &trans      &trans        &trans        &trans
@@ -227,8 +218,8 @@
         compatible = "zmk,conditional-layers";
 
         ext_sym_to_fnc {
-            if-layers = <2 3>;
-            then-layer = <4>;
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
     };
 };
