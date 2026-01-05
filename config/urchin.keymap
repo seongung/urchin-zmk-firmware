@@ -130,6 +130,38 @@
 
             label = "TMUX_COPY_MODE";
         };
+
+        tmux_pane_nav_up: tmux_pane_nav_up {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp UP>;
+
+            label = "TMUX_PANE_NAV_UP";
+        };
+
+        tmux_pane_nav_down: tmux_pane_nav_down {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp DOWN>;
+
+            label = "TMUX_PANE_NAV_DOWN";
+        };
+
+        tmux_pane_nav_left: tmux_pane_nav_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp LEFT>;
+
+            label = "TMUX_PANE_NAV_LEFT";
+        };
+
+        tmux_pane_nav_right: tmux_pane_nav_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp RIGHT>;
+
+            label = "TMUX_PANE_NAV_RIGHT";
+        };
     };
 
     combos {
