@@ -197,9 +197,9 @@
         ext_layer {
             label = "Extend";
             bindings = <
-&kp ESC     &kp LG(LEFT)  &kp LG(E)  &kp LG(RIGHT)  &kp LC(T)  &kp PG_UP          &kp HOME  &kp UP    &kp END    &kp CAPS
+&kp ESC     &kp LG(LEFT)  &kp LG(E)  &kp LG(RIGHT)  &kp LC(B)  &kp PG_UP          &kp HOME  &kp UP    &kp END    &kp CAPS
 &sk LSHIFT  &sk LCTRL     &sk LALT   &sk LGUI       &sk RGUI   &kp PG_DN          &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL
-&kp LG(Z)   &kp LG(X)     &kp LG(C)  &kp LALT       &kp LG(B)  &kp LA(BACKSPACE)  &kp BSPC  &kp TAB   &sk RALT   &kp PRINTSCREEN
+&kp LG(Z)   &kp LG(X)     &kp LG(C)  &kp GLOBE      &kp LG(V)  &kp LA(BACKSPACE)  &kp BSPC  &kp TAB   &sk RALT   &kp PRINTSCREEN
                                      &trans         &trans     &kp ENTER          &trans
             >;
         };
@@ -229,7 +229,7 @@
             bindings = <
 &none       &none      &none     &none     &kp KP_NLCK  &kp EQUAL  &kp N7  &kp N8  &kp N9  &kp PLUS
 &sk LSHIFT  &sk LCTRL  &sk LALT  &sk LGUI  &sk RGUI     &kp STAR   &kp N4  &kp N5  &kp N6  &kp MINUS
-&none       &kp RALT   &kp TAB   &kp BSPC  &kp ENTER    &kp N0     &kp N1  &kp N2  &kp N3  &kp FSLH
+&none       &sk RALT   &kp TAB   &kp BSPC  &kp ENTER    &kp N0     &kp N1  &kp N2  &kp N3  &kp FSLH
                                  &trans    &trans       &trans     &trans
             >;
         };
