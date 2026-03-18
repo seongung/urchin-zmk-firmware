@@ -62,7 +62,7 @@
         tmux_win_prev: tmux_win_prev {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp R>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp R>;
 
             label = "TMUX_WIN_PREV";
         };
@@ -70,7 +70,7 @@
         tmux_win_next: tmux_win_next {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp J>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp J>;
 
             label = "TMUX_WIN_NEXT";
         };
@@ -78,7 +78,7 @@
         tmux_new_win: tmux_new_win {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp C>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp C>;
 
             label = "TMUX_NEW_WIN";
         };
@@ -86,7 +86,7 @@
         tmux_sess_prev: tmux_sess_prev {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp LPAR>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp LPAR>;
 
             label = "TMUX_SESS_PREV";
         };
@@ -94,7 +94,7 @@
         tmux_sess_next: tmux_sess_next {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp RPAR>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp RPAR>;
 
             label = "TMUX_SESS_NEXT";
         };
@@ -102,7 +102,7 @@
         tmux_pane_split_v: tmux_pane_split_v {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp PERCENT>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp PERCENT>;
 
             label = "TMUX_PANE_SPLIT_V";
         };
@@ -110,7 +110,7 @@
         tmux_pane_split_h: tmux_pane_split_h {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp DQT>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp DQT>;
 
             label = "TMUX_PANE_SPLIT_H";
         };
@@ -118,7 +118,7 @@
         tmux_kill_win: tmux_kill_win {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp AMPERSAND>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp AMPERSAND>;
 
             label = "TMUX_KILL_WIN";
         };
@@ -126,7 +126,7 @@
         tmux_copy_mode: tmux_copy_mode {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp LBKT>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp LBKT>;
 
             label = "TMUX_COPY_MODE";
         };
@@ -134,7 +134,7 @@
         tmux_pane_nav_up: tmux_pane_nav_up {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp UP>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp UP>;
 
             label = "TMUX_PANE_NAV_UP";
         };
@@ -142,7 +142,7 @@
         tmux_pane_nav_down: tmux_pane_nav_down {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp DOWN>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp DOWN>;
 
             label = "TMUX_PANE_NAV_DOWN";
         };
@@ -150,7 +150,7 @@
         tmux_pane_nav_left: tmux_pane_nav_left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp LEFT>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp LEFT>;
 
             label = "TMUX_PANE_NAV_LEFT";
         };
@@ -158,7 +158,7 @@
         tmux_pane_nav_right: tmux_pane_nav_right {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(T)>, <&macro_tap>, <&kp RIGHT>;
+            bindings = <&macro_tap>, <&kp LC(B)>, <&macro_tap>, <&kp RIGHT>;
 
             label = "TMUX_PANE_NAV_RIGHT";
         };
