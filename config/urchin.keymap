@@ -26,7 +26,7 @@
 };
 
 &lt {
-    flavor = "balanced";
+    flavor = "hold-preferred";
     tapping-term-ms = <200>;
     hold-while-undecided;
     hold-trigger-key-positions = <25 26 27 28 16 17 18 6 7 8>;
