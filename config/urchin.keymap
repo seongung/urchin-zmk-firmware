@@ -26,9 +26,8 @@
 };
 
 &lt {
-    flavor = "hold-preferred";
-    hold-trigger-key-positions = <6 7 8 18 17 16 26 27 28 25>;
-    tapping-term-ms = <180>;
+    flavor = "balanced";
+    tapping-term-ms = <200>;
 };
 
 / {
