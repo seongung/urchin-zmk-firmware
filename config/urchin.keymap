@@ -198,10 +198,10 @@
         ext_layer {
             label = "Extend";
             bindings = <
-&kp ESC     &kp LG(LEFT)  &kp LG(E)  &kp LG(RIGHT)  &none     &kp PG_UP          &kp HOME  &kp UP    &kp END    &kp CAPS
-&sk LSHIFT  &sk LCTRL     &sk LALT   &sk LGUI       &sk RGUI  &kp PG_DN          &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL
-&kp LG(Z)   &kp LG(X)     &kp LG(C)  &kp LG(V)      &none     &kp LA(BACKSPACE)  &kp BSPC  &kp TAB   &sk RALT   &kp PRINTSCREEN
-                                     &trans         &trans    &kp ENTER          &trans
+&kp ESC     &kp LG(LEFT)  &kp LG(E)  &kp LG(RIGHT)  &none      &kp PG_UP          &kp HOME  &kp UP    &kp END    &kp CAPS
+&sk LSHIFT  &sk LCTRL     &sk LALT   &sk LGUI       &sk RGUI   &kp PG_DN          &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL
+&kp LG(Z)   &kp LG(X)     &kp LG(C)  &kp LG(V)      &kp LC(B)  &kp LA(BACKSPACE)  &kp BSPC  &kp TAB   &sk RALT   &kp PRINTSCREEN
+                                     &trans         &trans     &kp ENTER          &trans
             >;
         };
 
