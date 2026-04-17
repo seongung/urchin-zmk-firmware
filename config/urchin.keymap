@@ -199,7 +199,7 @@
             label = "Extend";
             bindings = <
 &kp ESC     &kp LG(LEFT)  &kp LG(E)  &kp LG(RIGHT)  &none      &kp PG_UP          &kp HOME  &kp UP    &kp END    &kp CAPS
-&sk LSHIFT  &sk LCTRL     &sk LALT   &sk LGUI       &kp LG(D)  &kp PG_DN          &kp LEFT  &kp DOWN  &kp RIGHT  &kp DELETE
+&sk LSHIFT  &sk LCTRL     &sk LALT   &sk LGUI       &kp LG(G)  &kp PG_DN          &kp LEFT  &kp DOWN  &kp RIGHT  &kp DELETE
 &kp LG(Z)   &kp LG(X)     &kp LG(C)  &kp LG(V)      &none      &kp LA(BACKSPACE)  &kp BSPC  &kp TAB   &sk RALT   &kp PRINTSCREEN
                                      &trans         &trans     &kp ENTER          &trans
             >;
