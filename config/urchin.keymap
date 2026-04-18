@@ -200,7 +200,7 @@
             bindings = <
 &kp ESC     &kp LG(LEFT)  &kp LG(E)  &kp LG(RIGHT)  &none      &kp PG_UP          &kp HOME  &kp UP    &kp END    &kp CAPS
 &sk LSHIFT  &sk LCTRL     &sk LALT   &sk LGUI       &kp LG(G)  &kp PG_DN          &kp LEFT  &kp DOWN  &kp RIGHT  &kp DELETE
-&kp LG(Z)   &kp LG(X)     &kp LG(C)  &kp LG(V)      &none      &kp LA(BACKSPACE)  &kp BSPC  &kp TAB   &sk RALT   &kp PRINTSCREEN
+&kp LG(Z)   &kp LG(X)     &kp LG(C)  &kp LG(V)      &none      &kp LA(BACKSPACE)  &kp BSPC  &kp TAB   &kp RALT   &kp PRINTSCREEN
                                      &trans         &trans     &kp ENTER          &trans
             >;
         };
@@ -230,7 +230,7 @@
             bindings = <
 &none       &none      &none     &none     &kp KP_NUMLOCK  &kp EQUAL  &kp N7  &kp N8  &kp N9  &kp PLUS
 &kp LSHIFT  &kp LCTRL  &kp LALT  &kp LGUI  &sk RGUI        &kp STAR   &kp N4  &kp N5  &kp N6  &kp MINUS
-&none       &sk RALT   &kp TAB   &kp BSPC  &kp ENTER       &kp N0     &kp N1  &kp N2  &kp N3  &kp FSLH
+&none       &kp RALT   &kp TAB   &kp BSPC  &kp ENTER       &kp N0     &kp N1  &kp N2  &kp N3  &kp FSLH
                                  &trans    &trans          &trans     &trans
             >;
         };
